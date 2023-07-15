@@ -2,7 +2,7 @@
 
 <h1>Token Classification</h1>
 <p>
-    This subdirectory in this repository is for Token Classification projects. Currently, all projects use monolingual (English). 
+    This subdirectory in this repository is for Token Classification projects. Currently, all projects are monolingual (English). 
     <!--It is broken down into two subdirectories: Monolingual and Multilingual (coming soon).-->
 </p>
 
@@ -30,6 +30,9 @@
     <th style="text-align: center;">
         Overall Evaluation Recall
     </th>
+    <th style="text-align: center;">
+        Best Model/Transformer
+    </th>
 </tr>
 
 <tr>
@@ -52,6 +55,9 @@
     </td>
     <td style="text-align: center;">
         0.8025
+    </td>
+    <td style="text-align: center;">
+        -
     </td>
 </tr>
 
@@ -76,6 +82,9 @@
     <td style="text-align: center;">
         0.8677
     </td>
+    <td style="text-align: center;">
+        -
+    </td>
 </tr>
 
 <tr>
@@ -98,6 +107,35 @@
     </td>
     <td style="text-align: center;">
         0.9820
+    </td>
+    <td style="text-align: center;">
+        -
+    </td>
+</tr>
+
+<tr>
+    <td style="text-align: center;">
+        <a href="Monolingual/WikiNeural%20-%20Transformer%20Comparison">
+            WikiNeural (Transformer Comparison)
+        </a>
+    </td>
+    <td style="text-align: center;">
+        0.093
+    </td>
+    <td style="text-align: center;">
+        0.9912
+    </td>
+    <td style="text-align: center;">
+        0.9261
+    </td>
+    <td style="text-align: center;">
+        0.9145
+    </td>
+    <td style="text-align: center;">
+        0.9380
+    </td>
+    <td style="text-align: center;">
+        Bert-Base-Cased
     </td>
 </tr>
 
@@ -145,6 +183,9 @@
     </td>
     <td style="text-align: center;">
         0.7805
+    </td>
+    <td style="text-align: center;">
+        -
     </td>
 </tr>
 
