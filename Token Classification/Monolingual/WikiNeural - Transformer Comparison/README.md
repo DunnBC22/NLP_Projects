@@ -53,15 +53,15 @@
 
 | Project Link | Transformer Checkpoint Used | Memory (GB) | Training Duration (Minutes) | Accuracy | Evaluation Precision | Evaluation Recall | Evaluation F1-Score |
 | :-------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
-| [![X](Images/checkmark.png "bert-base-cased")]() | [`bert-base-cased`](https://huggingface.co/bert-base-cased) | 3.45 | 773 | 0.9912 | 0.9145 | 0.9380 | 0.9261 |
-| [![X](Images/checkmark.png "amazon/bort")]() | [`amazon/bort`](https://huggingface.co/amazon/bort) | 2.42 | 249 | 0.9709 | 0.7050 | 0.7868 | 0.7437 |
-| [![X](Images/checkmark.png "google/fnet-base")]() | [`google/fnet-base`](https://huggingface.co/google/fnet-base) | 2.65 | 568 | 0.9853 | 0.8521 | 0.8934 | 0.8722 |
-| [![X](Images/checkmark.png "funnel-transformer/medium")]() | [`funnel-transformer/medium`](https://huggingface.co/funnel-transformer/medium) | 4.20 | 939 | 0.9856 | 0.8722 | 0.9102 | 0.8908 |
-| [![X](Images/checkmark.png "kssteven/ibert-roberta-base")]() | [`kssteven/ibert-roberta-base`](https://huggingface.co/kssteven/ibert-roberta-base) | 5.97 | 803 | 0.9909 | 0.9107 | 0.9360 | 0.9232 |
-| [![X](Images/checkmark.png "mnaylor/mega-base-wikitext")]() | [`mnaylor/mega-base-wikitext`](https://huggingface.co/mnaylor/mega-base-wikitext) | 0.2462 | 57 | 0.9619 | 0.6312 | 0.7324 | 0.6781 |
-| [![X](Images/checkmark.png "roberta-base")]() | [`roberta-base`](https://huggingface.co/roberta-base) | 3.98 | 794 | 0.9910 | 0.9124 | 0.9352 | 0.9237 |
-| [![X](Images/checkmark.png "squeezebert/squeezebert-uncased")]() | [`squeezebert/squeezebert-uncased`](https://huggingface.co/squeezebert/squeezebert-uncased) | 1.63 | 506 | 0.9803 | 0.8278 | 0.8866 | 0.8562 |
-| [![X](Images/checkmark.png "xlnet-base-cased")]() | [`xlnet-base-cased`](https://huggingface.co/xlnet-base-cased)]() | 3.75 | 1081 | 0.9904 | 0.9068 | 0.9324 | 0.9194 |
+| [![X](Images/checkmark.png "bert-base-cased")](POS%20Project%20with%20Wikineural%20Dataset%20-%20BERT-Base%20Transformer.ipynb) | [`bert-base-cased`](https://huggingface.co/bert-base-cased) | 3.45 | 773 | 0.9912 | 0.9145 | 0.9380 | 0.9261 |
+| [![X](Images/checkmark.png "amazon/bort")](POS%20Project%20with%20Wikineural%20Dataset%20-%20BORT%20Transformer.ipynb) | [`amazon/bort`](https://huggingface.co/amazon/bort) | 2.42 | 249 | 0.9709 | 0.7050 | 0.7868 | 0.7437 |
+| [![X](Images/checkmark.png "google/fnet-base")](POS%20Project%20with%20Wikineural%20Dataset%20-%20FNet%20Transformer.ipynb) | [`google/fnet-base`](https://huggingface.co/google/fnet-base) | 2.65 | 568 | 0.9853 | 0.8521 | 0.8934 | 0.8722 |
+| [![X](Images/checkmark.png "funnel-transformer/medium")](POS%20Project%20with%20Wikineural%20Dataset%20-%20Funnel%20Transformer.ipynb) | [`funnel-transformer/medium`](https://huggingface.co/funnel-transformer/medium) | 4.20 | 939 | 0.9856 | 0.8722 | 0.9102 | 0.8908 |
+| [![X](Images/checkmark.png "kssteven/ibert-roberta-base")](POS%20Project%20with%20Wikineural%20Dataset%20-%20I-BERT%20Transformer.ipynb) | [`kssteven/ibert-roberta-base`](https://huggingface.co/kssteven/ibert-roberta-base) | 5.97 | 803 | 0.9909 | 0.9107 | 0.9360 | 0.9232 |
+| [![X](Images/checkmark.png "mnaylor/mega-base-wikitext")](POS%20Project%20with%20Wikineural%20Dataset%20-%20MEGA%20Transformer.ipynb) | [`mnaylor/mega-base-wikitext`](https://huggingface.co/mnaylor/mega-base-wikitext) | 0.2462 | 57 | 0.9619 | 0.6312 | 0.7324 | 0.6781 |
+| [![X](Images/checkmark.png "roberta-base")](POS%20Project%20with%20Wikineural%20Dataset%20-%20Roberta-Base%20Transformer.ipynb) | [`roberta-base`](https://huggingface.co/roberta-base) | 3.98 | 794 | 0.9910 | 0.9124 | 0.9352 | 0.9237 |
+| [![X](Images/checkmark.png "squeezebert/squeezebert-uncased")](POS%20Project%20with%20Wikineural%20Dataset%20-%20SqueezeBERT%20Transformer.ipynb) | [`squeezebert/squeezebert-uncased`](https://huggingface.co/squeezebert/squeezebert-uncased) | 1.63 | 506 | 0.9803 | 0.8278 | 0.8866 | 0.8562 |
+| [![X](Images/checkmark.png "xlnet-base-cased")](POS%20Project%20with%20Wikineural%20Dataset%20-%20XLNet%20Transformer.ipynb) | [`xlnet-base-cased`](https://huggingface.co/xlnet-base-cased)]() | 3.75 | 1081 | 0.9904 | 0.9068 | 0.9324 | 0.9194 |
 
 <h3>
     Conclusions
