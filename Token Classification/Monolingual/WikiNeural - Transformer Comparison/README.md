@@ -61,7 +61,7 @@
 | [![X](Images/checkmark.png "mnaylor/mega-base-wikitext")](POS%20Project%20with%20Wikineural%20Dataset%20-%20MEGA%20Transformer.ipynb) | [`mnaylor/mega-base-wikitext`](https://huggingface.co/mnaylor/mega-base-wikitext) | 0.2462 | 57 | 0.9619 | 0.6312 | 0.7324 | 0.6781 |
 | [![X](Images/checkmark.png "roberta-base")](POS%20Project%20with%20Wikineural%20Dataset%20-%20Roberta-Base%20Transformer.ipynb) | [`roberta-base`](https://huggingface.co/roberta-base) | 3.98 | 794 | 0.9910 | 0.9124 | 0.9352 | 0.9237 |
 | [![X](Images/checkmark.png "squeezebert/squeezebert-uncased")](POS%20Project%20with%20Wikineural%20Dataset%20-%20SqueezeBERT%20Transformer.ipynb) | [`squeezebert/squeezebert-uncased`](https://huggingface.co/squeezebert/squeezebert-uncased) | 1.63 | 506 | 0.9803 | 0.8278 | 0.8866 | 0.8562 |
-| [![X](Images/checkmark.png "xlnet-base-cased")](POS%20Project%20with%20Wikineural%20Dataset%20-%20XLNet%20Transformer.ipynb) | [`xlnet-base-cased`](https://huggingface.co/xlnet-base-cased)]() | 3.75 | 1081 | 0.9904 | 0.9068 | 0.9324 | 0.9194 |
+| [![X](Images/checkmark.png "xlnet-base-cased")](POS%20Project%20with%20Wikineural%20Dataset%20-%20XLNet%20Transformer.ipynb) | [`xlnet-base-cased`](https://huggingface.co/xlnet-base-cased) | 3.75 | 1081 | 0.9904 | 0.9068 | 0.9324 | 0.9194 |
 
 <h3>
     Conclusions
