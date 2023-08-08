@@ -32,8 +32,12 @@
 | [Hate & Offensive Speech*](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiclass%20Classification/Transformer%20Comparison/Hate%20%26%20Offensive%20Speech%20-%20DistilBERT.ipynb) | `distilbert-base-uncased` | 0.9607 | 0.9592 | 0.9613 | 0.9579 |
 | [Hate & Offensive Speech*](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiclass%20Classification/Transformer%20Comparison/Hate%20%26%20Offensive%20Speech%20-%20fBERT.ipynb) | `diptanu/fBERT` | 0.9607 | 0.9581 | 0.9596 | 0.9571 |
 | [Hate & Offensive Speech*](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiclass%20Classification/Transformer%20Comparison/Hate%20%26%20Offensive%20Speech%20-%20hateBERT.ipynb) | `GroNLP/hateBERT`| 0.941 | 0.9351 | 0.951 | 0.9273 |
-| [Malicious URLs](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiclass%20Classification/Malicious%20URLs/Malicious%20URLs%20-%20CodeBERT.ipynb) | `microsoft/codebert-base`| 0.7279 | 0.4611 | 0.5436 | 0.4422 |
 | [Password Strength](https://github.com/DunnBC22/NLP_Projects/blob/main/Password%20Strength%20Classification%20(MC)/CodeBERT-Base%20-%20Password_Classifier.ipynb) | `microsoft/codebert-base` | 0.9975 | 0.9963 | 0.9948 | 0.9978 |
+| [Malicious URLs](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiclass%20Classification/Malicious%20URLs/Malicious%20URLs%20-%20CodeBERT.ipynb) | `microsoft/codebert-base`| 0.7279 | 0.4611 | 0.5436 | 0.4422 |
+| [Malicious URLs](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiclass%20Classification/Malicious%20URLs/Malicious_URLs_CodeBERT-mlm.ipynb) | `microsoft/codebert-base-mlm`| 0.7322 | 0.4303 | 0.6034 | 0.4233 |
+| [Malicious URLs](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiclass%20Classification/Malicious%20URLs/Malicious_URLs_DeBERTa.ipynb) | `microsoft/deberta-base-mnli`| 0.7353 | 0.4533 | 0.5684 | 0.4315 |
+| [Malicious URLs (Using PEFT)](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiclass%20Classification/Malicious%20URLs/PEFT_Malicious_URLs_Roberta_Large_Chkpt.ipynb) | `roberta-large`| 0.7160 | 0.4374 | 0.5237 | 0.4190 |
+
 
 </details>
 
@@ -73,6 +77,8 @@
 | Project Name | Overall Accuracy | Overall F1 Score | Overall Precision | Overall Recall | 
 | :---: | :---: | :---: | :---: | :---: |
 | [BC2GM-IOB (EMBO-BLURB)](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/EMBO-BLURB/NER%20Project%20Using%20EMBO-BLURB%20Dataset.ipynb) | 0.9736 | 0.7765 | 0.7521 | 0.8025 |
+| [EMBO-BLURB with LoRA](https://github.com/DunnBC22/NLP_Projects/tree/main/Token%20Classification/Monolingual/EMBO-SourceData%20with%20LoRA) | 0.9584 | 0.8136 | 0.7999 | 0.8278 |
+| [DFKI-SLT/few-nerd](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/DFKI%20SLT%20few%20NERd/NER_Project_Using_DFKI_SLT_few_NERd_Dataset.ipynb) | 0.9498 | 0.8041 | 0.8203 | 0.7886 |
 | [NCBI Disease](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/NCBI_Disease/NER%20Project%20Using%20NCBI_Disease%20Dataset.ipynb) | 0.9825 | 0.8359 | 0.8064 | 0.8677 |
 | [TNER Bio NLP 2004](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/tner-bionlp2004/NER%20Project%20Using%20tner-bionlp%202004%20Dataset%20(BERT-Base).ipynb) | 0.9367 | 0.7169 | 0.6628 | 0.7805 |
 | [Stromberg NLP - Twitter (SeqEval)](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/StrombergNLP-Twitter_pos_vcb/NER%20Project%20Using%20StrombergNLP%20Twitter_pos_vcb%20Dataset.ipynb) | 0.9860 | 0.9824 | 0.9828 | 0.9820 |
@@ -168,7 +174,8 @@
 
 | Project Name | Exact Match | F1 Score |
 | :---: | :---: | :---: |
-| [Answer Prediction Dataset](https://github.com/DunnBC22/NLP_Projects/blob/main/Question%26Answer/Answer%20Prediction%20Dataset%20-%20Question%26Answer%20with%20BERT.ipynb) | 65.7357 | 79.2835 |
+| [ML QA](https://github.com/DunnBC22/NLP_Projects/blob/main/Question%26Answer/ML%20QA/ML_QA_Question%26Answer_with_BERT.ipynb) | 59.6146 | 73.3002 |
+| [Answer Prediction Dataset](https://github.com/DunnBC22/NLP_Projects/blob/main/Question%26Answer/Question%20Answer%20Dataset/Answer%20Prediction%20Dataset%20-%20Question%26Answer%20with%20BERT.ipynb) | 65.7357 | 79.2835 |
 </details>
 
 <details>
@@ -188,6 +195,13 @@
 | :---: | :---: |
 | [CosmosQA](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiple%20Choice/CosmosQA/CosmosQA%20-%20Multiple%20Choice%20Using%20BERT.ipynb) | 0.6000 |
 | [Social IQa](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiple%20Choice/Social%20IQa/Social%20IQa%20-%20Multiple%20Choice.ipynb) | 0.6128 |
+| [Discourse Marker QA](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiple%20Choice/Discourse%20Marker%20QA/Discourse_Marker_QA_Multiple_Choice_Using_BERT.ipynb) | 0.6207 |
+| [Figurative Language](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiple%20Choice/Figurative%20Language/Figurative%20Language%20-%20Multiple%20Choice%20Using%20BERT.ipynb) | 0.8124 |
+| [Strategy QA](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiple%20Choice/Strategy%20QA/Strategy%20QA%20-%20Multiple%20Choice%20Using%20BERT.ipynb) | 0.625 |
+| [e-CARE](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiple%20Choice/e-CARE/e_CARE_Multiple_Choice_Using_BERT.ipynb) | 0.7212 |
+| [Vitamin C Fact Verification](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiple%20Choice/Vitamin%20C%20Fact%20Verification/Vitamin_C_Fact_Verification_Multiple_Choice_Using_BERT.ipynb) | 0.7240 |
+| [Winowhy](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiple%20Choice/Winowhy/Winowhy%20-%20Multiple%20Choice%20Using%20BERT.ipynb) | 0.7118 |
+
 </details>
  
 <br />
@@ -200,6 +214,7 @@
 
 | Project Name | Mean Squared Error (MSE) | Root Mean Squared Error (RMSE) | Mean Absolute Error (MAE) |
 | :---: | :---: | :---: | :---: |
+| [Edmunds Car Reviews - All Brands (with Bert-Base)](https://github.com/DunnBC22/NLP_Projects/blob/main/NLP%20Regression/Edmunds%20Car%20Reviews%20(BERT-Base)/Edmunds_Consumer_car_Regression_All_Manufacturers_Bert_Base.ipynb) | 0.2324 | 0.4820 | 0.3089 |
 | [Edmunds Car Reviews - All Brands](https://github.com/DunnBC22/NLP_Projects/blob/main/NLP%20Regression/Edmunds%20Car%20Reviews%20(All%20Brands)/Edmunds_Consumer_car-Regression-All%20Manufacturers.ipynb) | 0.2232 | 0.4724 | 0.3150 |
 | [Edmunds Car Reviews - Brands Headquartered in America](https://github.com/DunnBC22/NLP_Projects/blob/main/NLP%20Regression/Edmunds%20Car%20Reviews%20(American)/HF-Edmunds_Consumer_car-Regression-American.ipynb) | 0.2486 | 0.4986 | 0.3469 |
 | [Edmunds Car Reviews - Brands Headquartered in Europe](https://github.com/DunnBC22/NLP_Projects/blob/main/NLP%20Regression/Edmunds%20Car%20Reviews%20(European)/HF-Edmunds_Consumer_car-Regression-European.ipynb) | 0.1999 | 0.4471 | 0.2824 |
