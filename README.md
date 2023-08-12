@@ -4,7 +4,7 @@
     </h1>
 
 <p>
-    This repository houses Natural Language Processing (NLP) projects that I have completed (other than NLP projects in Spark).
+    This repository houses Natural Language Processing (NLP) projects that I have completed (other than projects completed using Spark & Databricks).
 </p>
 
 <h2>
