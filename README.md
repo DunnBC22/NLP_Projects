@@ -37,6 +37,7 @@
 | [Malicious URLs](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiclass%20Classification/Malicious%20URLs/Malicious_URLs_CodeBERT-mlm.ipynb) | `microsoft/codebert-base-mlm`| 0.7322 | 0.4303 | 0.6034 | 0.4233 |
 | [Malicious URLs](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiclass%20Classification/Malicious%20URLs/Malicious_URLs_DeBERTa.ipynb) | `microsoft/deberta-base-mnli`| 0.7353 | 0.4533 | 0.5684 | 0.4315 |
 | [Malicious URLs (Using PEFT)](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiclass%20Classification/Malicious%20URLs/PEFT_Malicious_URLs_Roberta_Large_Chkpt.ipynb) | `roberta-large`| 0.7160 | 0.4374 | 0.5237 | 0.4190 |
+| [Malicious URLs](https://github.com/DunnBC22/NLP_Projects/blob/main/Multiclass%20Classification/Malicious%20URLs%20-%20ALBERT-Base_v2/Malicious%20URLs%20ALBERT-Base%20v2.ipynb) | `albert-base-v2` | 0.7267 | 0.4521 | 0.5508 | 0.4294 |
 
 
 </details>
@@ -74,25 +75,27 @@
 <details>
 <summary>Token Classification</summary>
 
-| Project Name | Overall Accuracy | Overall F1 Score | Overall Precision | Overall Recall | 
-| :---: | :---: | :---: | :---: | :---: |
-| [BC2GM-IOB (EMBO-BLURB)](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/EMBO-BLURB/NER%20Project%20Using%20EMBO-BLURB%20Dataset.ipynb) | 0.9736 | 0.7765 | 0.7521 | 0.8025 |
-| [EMBO-BLURB with LoRA](https://github.com/DunnBC22/NLP_Projects/tree/main/Token%20Classification/Monolingual/EMBO-SourceData%20with%20LoRA) | 0.9584 | 0.8136 | 0.7999 | 0.8278 |
-| [DFKI-SLT/few-nerd](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/DFKI%20SLT%20few%20NERd/NER_Project_Using_DFKI_SLT_few_NERd_Dataset.ipynb) | 0.9498 | 0.8041 | 0.8203 | 0.7886 |
-| [NCBI Disease](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/NCBI_Disease/NER%20Project%20Using%20NCBI_Disease%20Dataset.ipynb) | 0.9825 | 0.8359 | 0.8064 | 0.8677 |
-| [TNER Bio NLP 2004](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/tner-bionlp2004/NER%20Project%20Using%20tner-bionlp%202004%20Dataset%20(BERT-Base).ipynb) | 0.9367 | 0.7169 | 0.6628 | 0.7805 |
-| [Stromberg NLP - Twitter (SeqEval)](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/StrombergNLP-Twitter_pos_vcb/NER%20Project%20Using%20StrombergNLP%20Twitter_pos_vcb%20Dataset.ipynb) | 0.9860 | 0.9824 | 0.9828 | 0.9820 |
-| [Stromberg NLP - Twitter PoS_v2](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/StrombergNLP-Twitter_pos_vcb/NER%20Project%20Using%20StrombergNLP%20Twitter_pos_vcb%20Dataset%20with%20PosEval.ipynb) | 0.9853 | 0.8931 | 0.9296 | 0.8931 |
-| [Stromberg NLP - Twitter PoS (SqueezeBERT Transformer)](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/StrombergNLP-Twitter_pos_vcb/NER%20Project%20Using%20StrombergNLP%20Twitter_pos_vcb%20Dataset%20with%20PosEval%20%26%20SqueezeBERT.ipynb) | 0.9771 | 0.7765 | 0.8046 | 0.7785 |
-| [WikiNeural - BERT-Base](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20BERT-Base%20Transformer.ipynb) | 0.9912 | 0.9145 | 0.9380 | 0.9261 |
-| [WikiNeural - Amazon's BORT](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20BORT%20Transformer.ipynb) | 0.9709 | 0.7050 | 0.7868 | 0.7437 |
-| [WikiNeural - FNet-Base](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20FNet%20Transformer.ipynb) | 0.8521 | 0.8934 | 0.8722 | 0.9853 |
-| [WikiNeural - Funnel Transformer](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20Funnel%20Transformer.ipynb) | 0.9856 | 0.8722 | 0.9102 | 0.8908 |
-| [WikiNeural - I-BERT-Base](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20I-BERT%20Transformer.ipynb) | 0.9909 | 0.9107 | 0.9360 | 0.9232 |
-| [WikiNeural - MEGA-Base](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20MEGA%20Transformer.ipynb) | 0.9619 | 0.6312 | 0.7324 | 0.6781 |
-| [WikiNeural - RoBERTa-Base](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20Roberta-Base%20Transformer.ipynb) | 0.9910 | 0.9124 | 0.9352 | 0.9237 |
-| [WikiNeural - SqueezeBERT](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20SqueezeBERT%20Transformer.ipynb) | 0.9803 | 0.8278 | 0.8866 | 0.8562 |
-| [WikiNeural - XLNet-Base](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20XLNet%20Transformer.ipynb) | 0.9904 | 0.9068 | 0.9324 | 0.9194 |
+
+| Project Name | Overall Accuracy | Overall F1 Score | Overall Precision | Overall Recall | Multilingual? |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| [](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Multilingual/Babelscape-WikiNeural-Joined%20Dataset/Babelscape%20WikiNeural%20Joined%20Dataset%20With%20Multilingual%20BERT.ipynb) | 0.994704 | 0.995886 | 0.995711 | 0.996060 | Yes |
+| [BC2GM-IOB (EMBO-BLURB)](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/EMBO-BLURB/NER%20Project%20Using%20EMBO-BLURB%20Dataset.ipynb) | 0.9736 | 0.7765 | 0.7521 | 0.8025 | No |
+| [EMBO-BLURB with LoRA](https://github.com/DunnBC22/NLP_Projects/tree/main/Token%20Classification/Monolingual/EMBO-SourceData%20with%20LoRA) | 0.9584 | 0.8136 | 0.7999 | 0.8278 | No |
+| [DFKI-SLT/few-nerd](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/DFKI%20SLT%20few%20NERd/NER_Project_Using_DFKI_SLT_few_NERd_Dataset.ipynb) | 0.9498 | 0.8041 | 0.8203 | 0.7886 | No |
+| [NCBI Disease](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/NCBI_Disease/NER%20Project%20Using%20NCBI_Disease%20Dataset.ipynb) | 0.9825 | 0.8359 | 0.8064 | 0.8677 | No |
+| [TNER Bio NLP 2004](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/tner-bionlp2004/NER%20Project%20Using%20tner-bionlp%202004%20Dataset%20(BERT-Base).ipynb) | 0.9367 | 0.7169 | 0.6628 | 0.7805 | No |
+| [Stromberg NLP - Twitter (SeqEval)](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/StrombergNLP-Twitter_pos_vcb/NER%20Project%20Using%20StrombergNLP%20Twitter_pos_vcb%20Dataset.ipynb) | 0.9860 | 0.9824 | 0.9828 | 0.9820 | No |
+| [Stromberg NLP - Twitter PoS_v2](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/StrombergNLP-Twitter_pos_vcb/NER%20Project%20Using%20StrombergNLP%20Twitter_pos_vcb%20Dataset%20with%20PosEval.ipynb) | 0.9853 | 0.8931 | 0.9296 | 0.8931 | No |
+| [Stromberg NLP - Twitter PoS (SqueezeBERT Transformer)](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/StrombergNLP-Twitter_pos_vcb/NER%20Project%20Using%20StrombergNLP%20Twitter_pos_vcb%20Dataset%20with%20PosEval%20%26%20SqueezeBERT.ipynb) | 0.9771 | 0.7765 | 0.8046 | 0.7785 | No |
+| [WikiNeural - BERT-Base](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20BERT-Base%20Transformer.ipynb) | 0.9912 | 0.9145 | 0.9380 | 0.9261 | No |
+| [WikiNeural - Amazon's BORT](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20BORT%20Transformer.ipynb) | 0.9709 | 0.7050 | 0.7868 | 0.7437 | No |
+| [WikiNeural - FNet-Base](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20FNet%20Transformer.ipynb) | 0.8521 | 0.8934 | 0.8722 | 0.9853 | No |
+| [WikiNeural - Funnel Transformer](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20Funnel%20Transformer.ipynb) | 0.9856 | 0.8722 | 0.9102 | 0.8908 | No |
+| [WikiNeural - I-BERT-Base](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20I-BERT%20Transformer.ipynb) | 0.9909 | 0.9107 | 0.9360 | 0.9232 | No |
+| [WikiNeural - MEGA-Base](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20MEGA%20Transformer.ipynb) | 0.9619 | 0.6312 | 0.7324 | 0.6781 | No |
+| [WikiNeural - RoBERTa-Base](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20Roberta-Base%20Transformer.ipynb) | 0.9910 | 0.9124 | 0.9352 | 0.9237 | No |
+| [WikiNeural - SqueezeBERT](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20SqueezeBERT%20Transformer.ipynb) | 0.9803 | 0.8278 | 0.8866 | 0.8562 | No |
+| [WikiNeural - XLNet-Base](https://github.com/DunnBC22/NLP_Projects/blob/main/Token%20Classification/Monolingual/WikiNeural%20-%20Transformer%20Comparison/POS%20Project%20with%20Wikineural%20Dataset%20-%20XLNet%20Transformer.ipynb) | 0.9904 | 0.9068 | 0.9324 | 0.9194 | No |
 </details>
 
 <details>
@@ -161,12 +164,16 @@
 <details>
 <summary>Machine Translation</summary>
 
-| Project Name | Bleu | Rouge1 | Rouge2 | RougeL | RougeLsum | Meteor |
+| Project Name | Transformer Checkpoint | Bleu | Rouge1 | Rouge2 | RougeL | RougeLsum | Meteor | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| [English to French](https://github.com/DunnBC22/NLP_Projects/blob/main/Machine%20Translation/NLP%20Translation%20Project-EN%20to%20FR/NLP%20Translation%20Project-EN_FR.ipynb) | 35.1914 | 0.6420 | 0.4573 | 0.6070 | 0.6069 | 0.5917 |
-| [English to German](https://github.com/DunnBC22/NLP_Projects/blob/main/Machine%20Translation/NLP%20Translation%20Project-EN%20to%20DE/NLP%20Translation%20Project-EN_DE.ipynb) | 35.5931 | 0.5803 | 0.3939 | 0.5439 | 0.5442 | 0.55 |
-| [English to Spanish](https://github.com/DunnBC22/NLP_Projects/blob/main/Machine%20Translation/NLP%20Translation%20Project-EN%20to%20ES/NLP%20Translation%20Project-EN_ES.ipynb) | 41.4437 | 0.6751 | 0.4977 | 0.6372 | 0.6376 | 0.6479 |
-| [BioMedical EN to IT Translation](https://github.com/DunnBC22/NLP_Projects/blob/main/Machine%20Translation/Biomedical%20Translation%20(EN%20to%20IT)/Biomedical%20-%20Translation%20Project.ipynb) | 38.9893 | 0.6826 | 0.4737 | 0.6586 | 0.6585 | 0.6270 |
+| [English to French](https://github.com/DunnBC22/NLP_Projects/blob/main/Machine%20Translation/NLP%20Translation%20Project-EN%20to%20FR/NLP%20Translation%20Project-EN_FR.ipynb) | `` | 35.1914 | 0.6420 | 0.4573 | 0.6070 | 0.6069 | 0.5917 |
+| [English to German](https://github.com/DunnBC22/NLP_Projects/blob/main/Machine%20Translation/NLP%20Translation%20Project-EN%20to%20DE/NLP%20Translation%20Project-EN_DE.ipynb) | `` | 35.5931 | 0.5803 | 0.3939 | 0.5439 | 0.5442 | 0.55 |
+| [English to Spanish](https://github.com/DunnBC22/NLP_Projects/blob/main/Machine%20Translation/NLP%20Translation%20Project-EN%20to%20ES/NLP%20Translation%20Project-EN_ES.ipynb) | `` | 41.4437 | 0.6751 | 0.4977 | 0.6372 | 0.6376 | 0.6479 |
+| [BioMedical EN to IT Translation](https://github.com/DunnBC22/NLP_Projects/blob/main/Machine%20Translation/Biomedical%20Translation%20(EN%20to%20IT)/Biomedical%20-%20Translation%20Project.ipynb) | `` | 38.9893 | 0.6826 | 0.4737 | 0.6586 | 0.6585 | 0.6270 |
+| [Chinese to English Translation](https://github.com/DunnBC22/NLP_Projects/blob/main/Machine%20Translation/Chinese%20to%20English%20Translation/Chinese_to_English_Translation.ipynb) | `Helsinki-NLP/opus-mt-zh-en` | 45.2808 | 0.6201 | 0.4198 | 0.5927 | 0.5927 |
+| [Korean to English](https://github.com/DunnBC22/NLP_Projects/blob/main/Machine%20Translation/Korean%20to%20English%20(Korean%20Parallel%20Corpora)/Korean_Parallel_Corpora_OPUS_Translation_Project.ipynb) | `Helsinki-NLP/opus-mt-ko-en` | 14.3395 | 0.4391 | 0.2022 | 0.3671 | 0.3671 |
+| [Medical - German to English](https://github.com/DunnBC22/NLP_Projects/blob/main/Machine%20Translation/Medical%20-%20German%20to%20English/OPUS_Medical_German_to_English_OPUS_Translation_Project.ipynb) | `Helsinki-NLP/opus-mt-de-en` | 53.8812 | 0.7664 | 0.6284 | 0.7370 | 0.7370 |
+
 </details>
 
 <details>
